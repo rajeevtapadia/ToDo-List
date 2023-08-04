@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<img class="icn" src="assests/todoicon.png">
+			<h2 class="heading">ToDo List</h2>
+		</header>
+		<div class="add">
+			<input id="input" class="input" placeholder="What needs to be done">
+			<button class="save-btn" type="submit" onclick="addTask()">Enter</button>
+		</div>
+
+		<div>
+			<ul id="list-container">
+			</ul>
+		</div>
+
+		<button onclick="localStorage.clear()">get fucked lol</button>
+
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
