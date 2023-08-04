@@ -91,3 +91,12 @@ ul li span{
     right: 10px;
     padding: initial 27px;
 }
+@media screen and (max-width: 480px)  {
+    body{
+        margin: 0;
+    }
+    .container{
+        max-width: 92%;
+        padding: 15px;
+    }
+}
