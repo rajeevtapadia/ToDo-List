@@ -90,6 +90,7 @@ ul li span{
     position: absolute;
     right: 10px;
     padding: initial 27px;
+    cursor: pointer;
 }
 @media screen and (max-width: 480px)  {
     body{
