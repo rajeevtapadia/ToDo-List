@@ -8,6 +8,7 @@ body{
     justify-content: center;
     align-items: center;
     display: flex;
+    margin: 0;
 }
 .container{
     width: 100%;
